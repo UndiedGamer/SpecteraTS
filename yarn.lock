@@ -2625,10 +2625,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.18.65":
-  version: 16.18.65
-  resolution: "@types/node@npm:16.18.65"
-  checksum: c53cd5bfff0b6868c2735c7afb24008b23ce204ce090cc4fd1bbe0515de32f1088d401183ecb1a329ea69ab81591ca4935875d0744abb4bd60f4f85810d8446e
+"@types/node@npm:20.17.2":
+  version: 20.17.2
+  resolution: "@types/node@npm:20.17.2"
+  dependencies:
+    undici-types: ~6.19.2
+  checksum: 3e9be67728001fb2a0ba730d8e909559fb09b992443d8d9cc9009be717cb44c673f52a734d5802a67ff50c8ddd8ef7d9eba40e9d2a82a73098e081d2625260e6
   languageName: node
   linkType: hard
 
@@ -7758,7 +7760,7 @@ __metadata:
     "@sapphire/utilities": ^3.13.0
     "@spectera/tag-parser": ^2.3.1
     "@types/jest": ^27.5.2
-    "@types/node": 16.18.65
+    "@types/node": 20.17.2
     "@typescript-eslint/eslint-plugin": 5.62.0
     "@typescript-eslint/parser": 5.62.0
     babel-jest: ^28.1.3
@@ -8434,6 +8436,13 @@ __metadata:
     has-symbols: ^1.0.2
     which-boxed-primitive: ^1.0.2
   checksum: 89d950e18fb45672bc6b3c961f1e72c07beb9640c7ceed847b571ba6f7d2af570ae1a2584cfee268b9d9ea1e3293f7e33e0bc29eaeb9f8e8a0bab057ff9e6bba
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~6.19.2":
+  version: 6.19.8
+  resolution: "undici-types@npm:6.19.8"
+  checksum: de51f1b447d22571cf155dfe14ff6d12c5bdaec237c765085b439c38ca8518fc360e88c70f99469162bf2e14188a7b0bcb06e1ed2dc031042b984b0bb9544017
   languageName: node
   linkType: hard
 
