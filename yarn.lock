@@ -7774,7 +7774,7 @@ __metadata:
     pretty-quick: ^3.1.3
     prisma: 3.15.2
     reflect-metadata: 0.1.13
-    tsc-watch: 5.0.3
+    tsc-watch: 6.2.1
     tsup: ^5.12.9
     typescript: ^4.9.5
   languageName: unknown
@@ -7829,13 +7829,6 @@ __metadata:
   dependencies:
     duplexer: ~0.1.1
   checksum: 844b622cfe8b9de45a6007404f613b60aaf85200ab9862299066204242f89a7c8033b1c356c998aa6cfc630f6cd9eba119ec1c6dc1f93e245982be4a847aee7d
-  languageName: node
-  linkType: hard
-
-"string-argv@npm:^0.1.1":
-  version: 0.1.2
-  resolution: "string-argv@npm:0.1.2"
-  checksum: 6877bd72af145f6e6eafa932818014a57b2f39225c924562b7fccb50f1fcee73717bbcd5e528fd4d86cec32835c14749c32a9d35f06e0bf96637d1e73158203f
   languageName: node
   linkType: hard
 
@@ -8249,20 +8242,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsc-watch@npm:5.0.3":
-  version: 5.0.3
-  resolution: "tsc-watch@npm:5.0.3"
+"tsc-watch@npm:6.2.1":
+  version: 6.2.1
+  resolution: "tsc-watch@npm:6.2.1"
   dependencies:
     cross-spawn: ^7.0.3
     node-cleanup: ^2.1.2
     ps-tree: ^1.2.0
-    string-argv: ^0.1.1
-    strip-ansi: ^6.0.0
+    string-argv: ^0.3.1
   peerDependencies:
     typescript: "*"
   bin:
-    tsc-watch: index.js
-  checksum: abd63295dd5fda098a45d27912031e6c35a95f1aa20d7a86d6ad1469580400069e6476f2ffd4b88e37886d016443e60b1ae2dbcaf756e324efc67d0fa713fb15
+    tsc-watch: dist/lib/tsc-watch.js
+  checksum: 37ac3418fc51bc7ffb4c5375ba492240eeb15439622abdf0d75906d6206667f7bbb87be8034adcc0fdd0df98f2e7813c430487bd43bc66198721a9f0cfeba914
   languageName: node
   linkType: hard
 
