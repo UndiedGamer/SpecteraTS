@@ -73,7 +73,7 @@
 		"@sapphire/type": "^2.4.1",
 		"@sapphire/utilities": "^3.13.0",
 		"@spectera/tag-parser": "^2.3.1",
-		"discord.js": "^13.17.1",
+		"discord.js": "^14.17.3",
 		"dotenv-cra": "^3.0.3"
 	},
 	"devDependencies": {
